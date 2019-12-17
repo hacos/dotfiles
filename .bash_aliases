@@ -1,4 +1,6 @@
+# General
 alias ll='ls -lha' # So I get used to the Ubuntu command
+alias grepir='grep -i -R --exclude-dir=node_modules'
 
 # Terraform
 alias tf='terraform'
