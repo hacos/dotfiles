@@ -4,8 +4,8 @@ alias grepir='grep -i -R --exclude-dir=node_modules'
 
 # Terraform
 alias tf='terraform'
-alias tfs='~/bin/tfdev && terraform workspace select staging && terraform apply'
-alias tfp='~/bin/tfprod && terraform workspace select production && terraform apply'
+alias tfs='terraform workspace select staging && terraform apply'
+alias tfp='terraform workspace select production && terraform apply'
 
 # SSH
 alias sshdev='ssh -i ~/.ssh/staging -oStrictHostKeyChecking=no -o "UserKnownHostsFile /dev/null"'
